@@ -49,8 +49,6 @@ body{
     
 }
 
-
-
 .content, .form-content{
     display: flex;
     flex-direction: column;
@@ -116,4 +114,14 @@ button{
     margin-bottom: 25px;
     background-color: #0d7a44;
     color: beige;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+input:focus{
+    border: 2px solid blue;
+    box-shadow: 5px 5px lightgray;
+    outline: none;
 }
